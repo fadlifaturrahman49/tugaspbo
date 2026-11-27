@@ -2,11 +2,11 @@
 
 namespace Pbo\Marketplace;
 
-class produk {
-    private string $kokde;
+trait produk {
+    private string $kode;
     private string $nama;
     private int $harga;
-    private int $stock;
+    private int $stok;
 
     public const PAJAK = 0.11;
 
