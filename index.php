@@ -18,7 +18,7 @@ echo "produk: ". $produk->getNama();
 echo "<br/>";
 echo "harga: ". $produk->getHarga();
 echo "<br/>";
-echo "stock: ". $produk->getStok();
+echo "stock: ". $produk->getSto5xk();
 echo "<br/>";
 echo "pajak: ".  $produk->pajak() ."%";
 echo "<br/>";
